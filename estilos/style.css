@@ -40,3 +40,23 @@ iframe#tela{
     width: 268px;
     height: 471px;
 }
+
+section#socias{
+    text-align: right;
+}
+
+section#socias img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+    box-sizing: border-box;
+}
+
+section#socias img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.705);
+    transform: translate(-2px, -2px);
+    transition: transform .2s, border .3s;
+    
+}
